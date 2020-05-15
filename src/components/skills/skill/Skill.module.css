@@ -1,0 +1,71 @@
+.container {
+    /*border: 1px solid white;*/
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skill {
+    border: 1px solid #2e344e;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*padding: 0 35px;*/
+    -webkit-transition: 1s ease;
+}
+
+.blockIcon {
+    border-bottom: 1px solid #2e344e;
+    background-color: #161320;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    -webkit-transition: 1s ease;
+}
+
+.icon {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillTitel {
+    font-size: 30px;
+    color: white;
+    -webkit-transition: 1s ease;
+}
+
+.discription {
+    text-align: center;
+}
+
+.skill:hover {
+    border: 1px solid #037fff;
+    transition: 1s ;
+}
+
+.skill:hover .blockIcon {
+    /*border-bottom: 1px solid #037fff;*/
+    background-color: #0d0b16;
+    transition: 1s ;
+}
+
+.skill:hover .skillTitel {
+    color: #037fff;
+    transition: 1s ;
+}
+
+@media screen and (max-width: 1128px){
+    .skill {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 630px){
+    .skill {
+        width: 100%;
+    }
+}

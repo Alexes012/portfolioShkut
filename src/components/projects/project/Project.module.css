@@ -1,0 +1,47 @@
+.container {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projectImg {
+    border: 1px solid white;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectImg:hover {
+    border: 1px solid #037fff;
+    transition: all .3s ease-in;
+}
+
+.btnShow {
+    border: 1px solid white;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectTitle {
+    font-size: 30px;
+}
+
+
+@media screen and (max-width: 1252px) {
+    .projectsWrapper {
+        justify-content: center;
+    }
+}
