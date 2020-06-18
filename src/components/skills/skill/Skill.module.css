@@ -17,8 +17,8 @@
 
 .blockIcon {
     border-bottom: 1px solid #2e344e;
-    background-color: #161320;
-    width: 220px;
+    background-color: #191625;
+    width: 100%;
     display: flex;
     justify-content: center;
     -webkit-transition: 1s ease;
@@ -60,12 +60,17 @@
 
 @media screen and (max-width: 1128px){
     .skill {
-        width: 500px;
+        width: 220px;
     }
 }
+/*@media screen and (max-width: 627px){*/
+/*    .skill {*/
+/*        width: 220px;*/
+/*    }*/
+/*}*/
 
-@media screen and (max-width: 630px){
-    .skill {
-        width: 100%;
-    }
-}
+/*@media screen and (max-width: 630px){*/
+/*    .skill {*/
+/*        width: 100%;*/
+/*    }*/
+/*}*/

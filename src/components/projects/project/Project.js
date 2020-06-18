@@ -6,8 +6,9 @@ function Project(props) {
         <div className={styles.container}>
             <div className={styles.project}>
                 <div className={styles.projectImg}>
-                    <div className={styles.btnShow}>{props.link}</div>
-                    <span className={styles.projectTitle}>{props.name}</span>
+                    <div className={styles.btnShow}>
+                        <div className={styles.button}>{props.btn}</div>
+                    </div>
                 </div>
             </div>
         </div>

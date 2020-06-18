@@ -2,6 +2,8 @@
     padding: 20px 40px;
     display: flex;
     justify-content: space-evenly;
+    position: relative;
+    overflow: hidden;
 }
 
 .project {
@@ -12,13 +14,14 @@
 }
 
 .projectImg {
-    border: 1px solid white;
+    border: 1px solid #2e344e;
     height: 300px;
     width: 300px;
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    -webkit-transition: 1s ease;
 }
 
 .projectImg:hover {
@@ -27,18 +30,36 @@
 }
 
 .btnShow {
-    border: 1px solid white;
-    width: 150px;
-    height: 50px;
+    opacity: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    -webkit-transition: 1s ease;
 }
 
+.projectImg:hover .btnShow {
+    opacity: 1;
+    transition: all .3s ease-in;
+}
+
+.btnShow .button{
+    border: 1px solid #2e344e;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    width: 100px;
+    display:block;
+    text-align:center;
+    padding:5px 15px;
+    transition:all 0.5s;
+}
+.btnShow .button:hover{
+    border: 1px solid #037fff;
+    transition: all .3s ease-in;
+}
 .projectTitle {
     font-size: 30px;
 }
-
 
 @media screen and (max-width: 1252px) {
     .projectsWrapper {

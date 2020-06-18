@@ -1,87 +1,61 @@
 import React from 'react';
 import styles from './NavBarMenu.module.css';
+import {NavLink} from "react-router-dom";
 
 class NavBarMenu extends React.Component {
 
-    scrollTo = function(i) {
-        let offset = document.getElementById("item-" + i).offsetTop
-        // console.log(offset)
-        let isSafari = /Safari/.test(navigator.userAgent) && /Apple Computer/.test(navigator.vendor)
-        if (isSafari) {
-            if ((offset - document.body.scrollTop) > 0) {
-                var call = setInterval(function() {
-                    if ((offset - document.body.scrollTop) > 0) {
-                        document.body.scrollTop += 10
-                    } else {
-                        clearInterval(call)
-                    }
-                }, 1)
-            }
-            if ((offset - document.body.scrollTop) < 0) {
-                var call = setInterval(function() {
-                    if ((offset - document.body.scrollTop) < 0) {
-                        document.body.scrollTop -= 10
-                    } else {
-                        clearInterval(call)
-                    }
-                }, 1)
-            }
-        } else {
-            // console.log(document.documentElement.scrollTop)
-            if ((offset - document.documentElement.scrollTop) > 0) {
-
-                var call = setInterval(function() {
-
-                    if ((offset - document.documentElement.scrollTop) > 0) {
-                        document.documentElement.scrollTop += 10
-
-                        //document.body.scrollTop += 10
-                    } else {
-                        clearInterval(call)
-                    }
-                }, 1)
-            }
-            if ((offset - document.documentElement.scrollTop) < 0) {
-                var call = setInterval(function() {
-                    if ((offset - document.documentElement.scrollTop) < 0) {
-                        document.documentElement.scrollTop -= 10
-                        //document.body.scrollTop += 10
-                    } else {
-                        clearInterval(call)
-                    }
-                }, 1)
-            }
-        }
-
-    };
-
-    render = () => {
+    render() {
 
         return (
-            <div className={styles.header}>
+            <div className={this.props.state.isHidden ? styles.headerShow : styles.header}>
                 <div className={styles.containerForImg}>
+                    <div className={styles.buttonTopRight}>
+                        <button onClick={() => {
+                            this.props.onOpenClick()
+                        }}>
+                            <div/>
+                            <div/>
+                            <div/>
+                        </button>
+                    </div>
+
                     <div className={styles.photo}/>
                 </div>
 
                 <div className={styles.containerForMenu}>
                     <div className={styles.containerForLink}>
                         <div className={styles.animation}/>
-                        <div onClick={()=>this.scrollTo(0)} className={styles.link}>Главная</div>
+                        <div className={styles.link}>
+                            <NavLink to="/main">Главная</NavLink>
+                        </div>
                     </div>
 
                     <div className={styles.containerForLink}>
                         <div className={styles.animation}/>
-                        <div onClick={()=>this.scrollTo(1)} className={styles.link}>Навыки</div>
+                        <div className={styles.link}>
+                            <NavLink to="/about">Визитка</NavLink>
+                        </div>
                     </div>
 
                     <div className={styles.containerForLink}>
                         <div className={styles.animation}/>
-                        <div onClick={()=>this.scrollTo(2)} className={styles.link}>Проекты</div>
+                        <div className={styles.link}>
+                            <NavLink to="/skills">Навыки</NavLink>
+                        </div>
                     </div>
 
                     <div className={styles.containerForLink}>
                         <div className={styles.animation}/>
-                        <div onClick={()=>this.scrollTo(3)} className={styles.link}>Контакты</div>
+                        <div className={styles.link}>
+                            <NavLink to="/projects">Проекты</NavLink>
+                        </div>
+                    </div>
+
+                    <div className={styles.containerForLink}>
+                        <div className={styles.animation}/>
+                        <div className={styles.link}>
+                            <NavLink to="/contacts">Контакты</NavLink>
+                        </div>
                     </div>
                 </div>
 

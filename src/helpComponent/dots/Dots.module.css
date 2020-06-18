@@ -1,0 +1,13 @@
+.separator{
+    position: relative;
+
+}
+.separator::after{
+    position: center;
+    display: block;
+    content: "";
+    min-height: 100vh;
+    width: 600px;
+    opacity: 0.04;
+    z-index: 0;
+}

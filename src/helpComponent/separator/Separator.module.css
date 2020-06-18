@@ -1,0 +1,38 @@
+.separator{
+    position: relative;
+}
+
+.separator::after{
+    position: center;
+    display: block;
+    content: "";
+    border-radius: 100px;
+    height: 3px;
+    width: 140px;
+    background: #037fff;
+}
+
+.blockTheme {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.theme{
+    /*border: 1px solid white;*/
+    font-weight: 500;
+    /*width: 250px;*/
+    position: absolute;
+    /*display: block;*/
+    /*left: -200px;*/
+    font-size: 130px;
+    top: -80px;
+    opacity: 0.05;
+}
+
+@media screen and (max-width: 565px){
+    .blockTheme {
+       display: none;
+    }
+}
+
