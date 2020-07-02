@@ -4,7 +4,7 @@ import instagram from '../../images/instagram.png'
 import vk from '../../images/vk.png'
 import linkedin from '../../images/linkedin.png'
 import telegramm from '../../images/telegram.png'
-import github from '../../images/dribble.png'
+import github from '../../images/github.svg'
 
 class Main extends React.Component {
 

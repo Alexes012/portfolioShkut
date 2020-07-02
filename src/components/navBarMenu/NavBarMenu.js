@@ -12,11 +12,7 @@ class NavBarMenu extends React.Component {
                     <div className={styles.buttonTopRight}>
                         <button onClick={() => {
                             this.props.onOpenClick()
-                        }}>
-                            <div/>
-                            <div/>
-                            <div/>
-                        </button>
+                        }}> {this.props.state.isHidden ? "<" : ">"}</button>
                     </div>
 
                     <div className={styles.photo}/>
@@ -61,6 +57,14 @@ class NavBarMenu extends React.Component {
 
                 <div className={styles.containerForFooter}>
                     <span>© 2020 Все права защищены</span>
+                    {/*<div className={styles.langueges}>*/}
+                    {/*    <button>*/}
+                    {/*        RU*/}
+                    {/*    </button>*/}
+                    {/*    <button>*/}
+                    {/*        EN*/}
+                    {/*    </button>*/}
+                    {/*</div>*/}
                 </div>
             </div>
         );

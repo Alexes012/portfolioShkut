@@ -4,10 +4,12 @@ import Separator from "../../helpComponent/separator/Separator";
 import phone from '../../images/phone.svg'
 import mail from '../../images/mail.svg'
 import adress from '../../images/address.svg'
+import dots from '../../images/dots.png'
 
 function Contacts() {
     return (
-        <div className={styles.contacts} id='item-3'>
+        <div className={styles.contacts}>
+            <img className={styles.dots} src={dots}/>
             <div className={styles.containerForAll}>
                 <Separator name="Контакты"/>
                 <div className={styles.container}>
@@ -15,40 +17,42 @@ function Contacts() {
 
                     <div className={styles.containerForOther}>
                         <form className={styles.form}>
-                            <div className={styles.input1}>
+                            <div className={styles.oneInput}>
                                 <input
+                                    className={styles.inputIn}
                                     autoComplete="off"
                                     type="text" name={'name'}
-                                    placeholder='Имя'
                                 />
                             </div>
-                            <div className={styles.input1}>
+                            <div className={styles.twoInput}>
                                 <input
+                                    className={styles.inputIn}
                                     autoComplete="off"
                                     name={'email'}
-                                    placeholder='Почта'
                                 />
                             </div>
-                            <div className={styles.input1}>
+                            <div className={styles.threeInput}>
                                 <input
+                                    className={styles.inputIn}
                                     autoComplete="off"
                                     type="text"
                                     name={'phone'}
-                                    placeholder='Телефон'
                                 />
                             </div>
-                            <div className={styles.input1}>
+                            <div className={styles.fourInput}>
                                 <input
+                                    className={styles.inputIn}
                                     autoComplete="off"
                                     name={'subject'}
-                                    placeholder='Тема'
                                 />
                             </div>
                             <div className={styles.textarea}>
-                                <textarea name={'message'} placeholder='Сообщение'/>
+                                <textarea name={'message'}/>
                             </div>
                             <div className={styles.button}>
-                                <button>Отправить</button>
+                                <button className={styles.btn}>
+                                    <span>Отправить</span>
+                                </button>
                             </div>
                         </form>
 
@@ -66,7 +70,7 @@ function Contacts() {
                                     <img src={mail}/>
                                 </div>
                                 <div className={styles.textContainer}>
-                                   mr.shkut3011@yandex.ru
+                                    mr.shkut3011@yandex.ru
                                     <div>shkuttv10@gmail.com</div>
                                 </div>
 
@@ -85,7 +89,6 @@ function Contacts() {
                 </div>
             </div>
         </div>
-
     );
 }
 

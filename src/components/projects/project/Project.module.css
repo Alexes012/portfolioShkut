@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 .projectImg {
@@ -24,13 +25,33 @@
     -webkit-transition: 1s ease;
 }
 
-.projectImg:hover {
-    border: 1px solid #037fff;
-    transition: all .3s ease-in;
+.projectImg img {
+    height: 100%;
+    width: 100%;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray; /* IE 6-9 */
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.projectImg img:hover {
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    -o-filter: none;
+    filter: none;
+    filter: none;
 }
 
 .btnShow {
     opacity: 0;
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,7 +64,8 @@
 }
 
 .btnShow .button{
-    border: 1px solid #2e344e;
+    border: 1px solid #037fff;
+    background-color: #037fff;
     cursor: pointer;
     color: white;
     font-size: 18px;
@@ -52,9 +74,10 @@
     text-align:center;
     padding:5px 15px;
     transition:all 0.5s;
+    letter-spacing: 2px;
 }
 .btnShow .button:hover{
-    border: 1px solid #037fff;
+    border: 1px solid #ffffff;
     transition: all .3s ease-in;
 }
 .projectTitle {

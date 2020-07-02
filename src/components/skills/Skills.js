@@ -8,10 +8,12 @@ import typeScript from "../../images/typescript.svg";
 import react from "../../images/react.svg";
 import redux from "../../images/redux.svg";
 import Separator from "../../helpComponent/separator/Separator";
+import dots from "../../images/dots.png";
 
 function Skills() {
     return (
-        <div className={styles.skills} id='item-1'>
+        <div className={styles.skills}>
+            <img className={styles.dots} src={dots}/>
             <div className={styles.containerForAll}>
                 <Separator name="Навыки"/>
                 <div className={styles.container}>
@@ -35,7 +37,7 @@ function Skills() {
                         <Skill
                             icon={<img src={typeScript}/>}
                             name="TypeScript"
-                            discription=""
+                            discription="Описание навыков данного скилла скоро будет!"
                         />
                         <Skill
                             icon={<img src={react}/>}

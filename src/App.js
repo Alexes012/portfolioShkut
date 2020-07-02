@@ -75,8 +75,6 @@ class App extends React.Component {
 
         };
 
-
-
         return (
             <div className="App">
                 <Particles className="Particles" params={particlesOption}/>

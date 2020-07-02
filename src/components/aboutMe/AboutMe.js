@@ -2,10 +2,12 @@ import React from "react";
 import styles from './AboutMe.module.css'
 import Separator from "../../helpComponent/separator/Separator";
 import photo from '../../images/myphoto.png'
+import dots from "../../images/dots.png";
 
 const AboutMe = () => {
     return (
         <div className={styles.aboutMe}>
+            <img className={styles.dots} src={dots}/>
             <div className={styles.containerForAll}>
                 <Separator name="Визитка"/>
                 <div className={styles.container}>
@@ -13,9 +15,7 @@ const AboutMe = () => {
 
                     <div className={styles.containerForOther}>
                         <div className={styles.containerForPhoto}>
-                            <div className={styles.photo}>
                                 <img src={photo}/>
-                            </div>
                         </div>
                         <div className={styles.containerForText}>
                             <div className={styles.textWrapper}>
@@ -25,7 +25,9 @@ const AboutMe = () => {
                                 <div className={styles.name}>Языки:</div>
                                 <div className={styles.name}>Профессия:</div>
                                 <div className={styles.button}>
-                                    <button>Скачать резюме</button>
+                                    <button className={styles.btn}>
+                                        <span>Скачать резюме</span>
+                                    </button>
                                 </div>
                             </div>
                             <div className={styles.descriptionWrapper}>

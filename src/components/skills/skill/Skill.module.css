@@ -3,6 +3,7 @@
     padding: 20px 30px;
     display: flex;
     justify-content: space-evenly;
+
 }
 
 .skill {
@@ -13,6 +14,7 @@
     align-items: center;
     /*padding: 0 35px;*/
     -webkit-transition: 1s ease;
+
 }
 
 .blockIcon {
@@ -22,6 +24,7 @@
     display: flex;
     justify-content: center;
     -webkit-transition: 1s ease;
+    position: relative;
 }
 
 .icon {
@@ -34,12 +37,15 @@
 
 .skillTitel {
     font-size: 30px;
+    width: 100%;
     color: white;
     -webkit-transition: 1s ease;
+    background-color: #10121b;
 }
 
 .discription {
-    text-align: center;
+    height: 125px;
+    background-color: #10121b;
 }
 
 .skill:hover {
@@ -47,11 +53,7 @@
     transition: 1s ;
 }
 
-.skill:hover .blockIcon {
-    /*border-bottom: 1px solid #037fff;*/
-    background-color: #0d0b16;
-    transition: 1s ;
-}
+
 
 .skill:hover .skillTitel {
     color: #037fff;

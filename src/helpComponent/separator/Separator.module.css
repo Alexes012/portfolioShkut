@@ -1,5 +1,6 @@
 .separator{
     position: relative;
+    margin-top: 60px;
 }
 
 .separator::after{
@@ -26,13 +27,21 @@
     /*display: block;*/
     /*left: -200px;*/
     font-size: 130px;
-    top: -80px;
+    top: -70px;
     opacity: 0.05;
 }
 
 @media screen and (max-width: 565px){
-    .blockTheme {
-       display: none;
+    .theme{
+        /*border: 1px solid white;*/
+        font-weight: 500;
+        /*width: 250px;*/
+        position: absolute;
+        /*display: block;*/
+        /*left: -200px;*/
+        font-size: 80px;
+        top: -20px;
+        opacity: 0.09;
     }
 }
 

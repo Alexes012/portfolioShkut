@@ -1,18 +1,26 @@
 .contacts {
     min-height: 100vh;
-    background-color: #161320;
+    background-color: #10121b;
     /*display: flex;*/
     /*justify-content: center;*/
     position: relative;
 }
 
+.dots {
+    position: fixed;
+    height: 100%;
+    width: 400px;
+    opacity: 0.1;
+    right: 0;
+}
+
 .containerForAll {
+    position: relative;
     margin-left: auto;
     width: calc(100% - 253px);
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 60px 0;
 }
 
 .container {
@@ -31,6 +39,7 @@
     margin-top: 100px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .form {
@@ -43,28 +52,14 @@
     text-align: left;
 }
 
-.input1 {
-    /*border: 1px solid white;*/
-    display: flex;
-    width: 500px;
-    justify-content: space-between;
-    padding-bottom: 20px;
-}
-
-/*.input1:before {*/
-/*    left: 200px;*/
-/*    content: "1235hghd";*/
-/*    top: 20px;*/
-/*}*/
-
-.input1 input {
+.inputIn {
     height: 50px;
     width: 500px;
     padding: 6px 15px;
     -webkit-box-shadow: none;
     box-shadow: none;
     border: 1px solid #2e344e;
-    background: #161320;
+    background: #10121b;
     color: white;
     font-family: 'Heebo', sans-serif;
     font-size: 1rem;
@@ -73,13 +68,109 @@
     box-sizing: border-box;
 }
 
-.form textarea {
+.oneInput {
+    position: relative;
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.oneInput:after {
+    content: "Введите имя*";
+    position: absolute;
+    text-align: center;
+    left: 40px;
+    top: -15px;
+    font-size: 16px;
+    width: 110px;
+    background-color: #10121b;
+}
+
+.twoInput {
+    position: relative;
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.twoInput:after {
+    content: "Введите почту*";
+    position: absolute;
+    text-align: center;
+    left: 40px;
+    top: -15px;
+    font-size: 16px;
+    width: 120px;
+    background-color: #10121b;
+}
+
+.threeInput {
+    position: relative;
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.threeInput:after {
+    content: "Введите телефон*";
+    position: absolute;
+    text-align: center;
+    left: 40px;
+    top: -15px;
+    font-size: 16px;
+    width: 135px;
+    background-color: #10121b;
+}
+
+.fourInput {
+    position: relative;
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.fourInput:after {
+    content: "Введите тему*";
+    position: absolute;
+    text-align: center;
+    left: 40px;
+    top: -15px;
+    font-size: 16px;
+    width: 110px;
+    background-color: #10121b;
+}
+
+.textarea {
+    position: relative;
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.textarea:after {
+    content: "Введите сообщение*";
+    position: absolute;
+    text-align: center;
+    left: 40px;
+    top: -15px;
+    font-size: 16px;
+    width: 155px;
+    background-color: #10121b;
+}
+
+.textarea textarea {
+    position: relative;
     height: 200px;
     width: 500px;
     resize: none;
     box-shadow: none;
     border: 1px solid #2e344e;
-    background: #161320;
+    background: #10121b;
     color: white;
     padding: 15px;
     font-family: 'Heebo', sans-serif;
@@ -90,38 +181,46 @@
 }
 
 .button {
-    height: 60px;
-    width: 200px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 20px 0 ;
+    padding: 0 0 60px 0;
 }
 
-.button button {
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60px;
-    width: 200px;
-    border: 1px solid #2e344e;
-    background-color: #161320;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+.btn {
+    width: 160px;
+    height: 50px;
+    line-height: 47px;
+    padding: 0;
+    border: none;
+    background-color: #037fff;
     color: #ffffff;
-    cursor:pointer;
-    outline: none;
-    -webkit-transition: 1s ease;
 }
 
-.button button:hover {
-    border: 2px solid #037fff;
-    transition: 1s;
+.btn span {
+    letter-spacing: 2px;
+    font-size: 17px;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.btn span:after {
+    position: absolute;
+    content: "";
+    background: #ffffff;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    transition: 0.6s ease;
+}
+
+.btn span:hover:after {
+    width: 100%;
 }
 
 .discContainer {
-    margin-right: 10px;
+    margin-right: 100px;
+    position: relative;
 }
 
 .phoneContainer {
@@ -132,6 +231,7 @@
     flex-direction: row;
     align-items: center;
 }
+
 .imgContainer {
     border: 1px solid #2e344e;
     height: 70px;
@@ -141,9 +241,11 @@
     align-items: center;
     justify-content: center;
 }
-.imgContainer img{
+
+.imgContainer img {
     height: 30px;
 }
+
 .textContainer {
     margin-left: 30px;
     font-size: 20px;
@@ -167,6 +269,62 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1480px){
+    .form {
+        margin-left: 60px;
+    }
+    .discContainer {
+        margin-right: 60px;
+    }
+}
+@media screen and (max-width: 1390px){
+    .form {
+        margin-left: 80px;
+    }
+    .discContainer {
+        margin-right: 80px;
+    }
+    .inputIn {
+        width: 450px;
+    }
+    .textarea textarea {
+        width: 450px;
+    }
+    .phoneContainer {
+        width: 400px;
+    }
+    .emailContainer {
+        width: 400px;
+    }
+    .locationContainer {
+        width: 400px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .form {
+        margin-left: 80px;
+    }
+    .discContainer {
+        margin-right: 80px;
+    }
+    .inputIn {
+        width: 500px;
+    }
+    .textarea textarea {
+        width: 500px;
+    }
+    .phoneContainer {
+        width: 500px;
+    }
+    .emailContainer {
+        width: 500px;
+    }
+    .locationContainer {
+        width: 500px;
+    }
 }
 
 @media screen and (max-width: 1200px){
@@ -174,20 +332,81 @@
         width: 100%;
     }
 }
-@media screen and (max-width: 735px){
-    .input1, .input2 {
+
+@media screen and (max-width: 1270px) {
+    .form {
+        margin-left: 40px;
+    }
+    .discContainer {
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width: 1095px){
+    .containerForOther {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .form {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .oneInput {
+        width: 80%;
+    }
+    .twoInput {
+        width: 80%;
+    }
+    .threeInput {
+        width: 80%;
+    }
+    .fourInput {
+        width: 80%;
+    }
+    .textarea textarea {
         width: 100%;
     }
-}
-
-@media screen and (max-width: 420px){
-    .input1, .input2 {
-        width: 90%;
-    }
-}
-
-@media screen and (max-width: 420px){
     .textarea {
-        width: 90%;
+        width: 80%;
+    }
+    .inputIn {
+        height: 50px;
+        width: 100%;
+    }
+    .discContainer {
+        width: 80%;
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
+
+@media screen and (max-width: 665px){
+    .phoneContainer {
+        width: 100%;
+    }
+    .emailContainer {
+        width: 100%;
+    }
+    .locationContainer {
+        width: 100%;
+    }
+    .textContainer {
+        margin-left: 20px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 321px){
+    .textContainer {
+        margin-left: 15px;
+        font-size: 10px;
+    }
+}
+

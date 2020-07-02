@@ -1,11 +1,19 @@
 .skills{
     min-height: 100vh;
-    background-color: #161320;
+    background-color: #10121b;
     display: flex;
     justify-content: center;
     position: relative;
     z-index: 1;
     font-family: 'Noto Sans', sans-serif;
+}
+
+.dots {
+    position: fixed;
+    height: 100%;
+    width: 400px;
+    opacity: 0.1;
+    right: 0;
 }
 
 .containerForAll {
@@ -16,7 +24,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 60px 0;
+    position: relative;
 }
 
 .container {
