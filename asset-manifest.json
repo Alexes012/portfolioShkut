@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolioShkut/static/css/main.c4543a42.chunk.css",
+    "main.js": "/portfolioShkut/static/js/main.ef704a97.chunk.js",
+    "main.js.map": "/portfolioShkut/static/js/main.ef704a97.chunk.js.map",
+    "runtime-main.js": "/portfolioShkut/static/js/runtime-main.ec755535.js",
+    "runtime-main.js.map": "/portfolioShkut/static/js/runtime-main.ec755535.js.map",
+    "static/js/2.eeab745c.chunk.js": "/portfolioShkut/static/js/2.eeab745c.chunk.js",
+    "static/js/2.eeab745c.chunk.js.map": "/portfolioShkut/static/js/2.eeab745c.chunk.js.map",
+    "index.html": "/portfolioShkut/index.html",
+    "precache-manifest.6553077b2728b59f0393f86258001c24.js": "/portfolioShkut/precache-manifest.6553077b2728b59f0393f86258001c24.js",
+    "service-worker.js": "/portfolioShkut/service-worker.js",
+    "static/css/main.c4543a42.chunk.css.map": "/portfolioShkut/static/css/main.c4543a42.chunk.css.map",
+    "static/js/2.eeab745c.chunk.js.LICENSE.txt": "/portfolioShkut/static/js/2.eeab745c.chunk.js.LICENSE.txt",
+    "static/media/address.svg": "/portfolioShkut/static/media/address.c4ad0d80.svg",
+    "static/media/calculator.png": "/portfolioShkut/static/media/calculator.4c810933.png",
+    "static/media/counterFull.jpg": "/portfolioShkut/static/media/counterFull.faecc7e9.jpg",
+    "static/media/css.svg": "/portfolioShkut/static/media/css.ceac94df.svg",
+    "static/media/github.svg": "/portfolioShkut/static/media/github.e32b2ff8.svg",
+    "static/media/html-5.svg": "/portfolioShkut/static/media/html-5.1b4a6dbc.svg",
+    "static/media/javascript.svg": "/portfolioShkut/static/media/javascript.246382bd.svg",
+    "static/media/mail.svg": "/portfolioShkut/static/media/mail.244e0ae2.svg",
+    "static/media/myphoto.png": "/portfolioShkut/static/media/myphoto.8ee5fa2e.png",
+    "static/media/noProject.png": "/portfolioShkut/static/media/noProject.6aed7100.png",
+    "static/media/phone.svg": "/portfolioShkut/static/media/phone.9ec95192.svg",
+    "static/media/react.svg": "/portfolioShkut/static/media/react.18e7877a.svg",
+    "static/media/redux.svg": "/portfolioShkut/static/media/redux.52dc1b56.svg",
+    "static/media/typescript.svg": "/portfolioShkut/static/media/typescript.5e9cb11d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ec755535.js",
+    "static/js/2.eeab745c.chunk.js",
+    "static/css/main.c4543a42.chunk.css",
+    "static/js/main.ef704a97.chunk.js"
+  ]
+}
