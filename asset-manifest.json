@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolioShkut/static/css/main.c4543a42.chunk.css",
-    "main.js": "/portfolioShkut/static/js/main.ef704a97.chunk.js",
-    "main.js.map": "/portfolioShkut/static/js/main.ef704a97.chunk.js.map",
+    "main.css": "/portfolioShkut/static/css/main.d6f89cf2.chunk.css",
+    "main.js": "/portfolioShkut/static/js/main.cdc7cb20.chunk.js",
+    "main.js.map": "/portfolioShkut/static/js/main.cdc7cb20.chunk.js.map",
     "runtime-main.js": "/portfolioShkut/static/js/runtime-main.ec755535.js",
     "runtime-main.js.map": "/portfolioShkut/static/js/runtime-main.ec755535.js.map",
-    "static/js/2.eeab745c.chunk.js": "/portfolioShkut/static/js/2.eeab745c.chunk.js",
-    "static/js/2.eeab745c.chunk.js.map": "/portfolioShkut/static/js/2.eeab745c.chunk.js.map",
+    "static/js/2.330c12d7.chunk.js": "/portfolioShkut/static/js/2.330c12d7.chunk.js",
+    "static/js/2.330c12d7.chunk.js.map": "/portfolioShkut/static/js/2.330c12d7.chunk.js.map",
     "index.html": "/portfolioShkut/index.html",
-    "precache-manifest.6553077b2728b59f0393f86258001c24.js": "/portfolioShkut/precache-manifest.6553077b2728b59f0393f86258001c24.js",
+    "precache-manifest.e5e2771898d04dbabebaa89b94e870d3.js": "/portfolioShkut/precache-manifest.e5e2771898d04dbabebaa89b94e870d3.js",
     "service-worker.js": "/portfolioShkut/service-worker.js",
-    "static/css/main.c4543a42.chunk.css.map": "/portfolioShkut/static/css/main.c4543a42.chunk.css.map",
-    "static/js/2.eeab745c.chunk.js.LICENSE.txt": "/portfolioShkut/static/js/2.eeab745c.chunk.js.LICENSE.txt",
+    "static/css/main.d6f89cf2.chunk.css.map": "/portfolioShkut/static/css/main.d6f89cf2.chunk.css.map",
+    "static/js/2.330c12d7.chunk.js.LICENSE.txt": "/portfolioShkut/static/js/2.330c12d7.chunk.js.LICENSE.txt",
+    "static/media/0429.jpg": "/portfolioShkut/static/media/0429.07ad831c.jpg",
     "static/media/address.svg": "/portfolioShkut/static/media/address.c4ad0d80.svg",
     "static/media/calculator.png": "/portfolioShkut/static/media/calculator.4c810933.png",
     "static/media/counterFull.jpg": "/portfolioShkut/static/media/counterFull.faecc7e9.jpg",
@@ -29,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ec755535.js",
-    "static/js/2.eeab745c.chunk.js",
-    "static/css/main.c4543a42.chunk.css",
-    "static/js/main.ef704a97.chunk.js"
+    "static/js/2.330c12d7.chunk.js",
+    "static/css/main.d6f89cf2.chunk.css",
+    "static/js/main.cdc7cb20.chunk.js"
   ]
 }
