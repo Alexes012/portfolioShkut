@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a4557e46ba50e303f7195e0ca7d48ee0",
+    "revision": "2503a5d23876f06ff9cc7c38fc40d41f",
     "url": "/portfolioShkut/index.html"
   },
   {
-    "revision": "6ad9ba9018455b9c6d8b",
+    "revision": "22627b6e90d85f285774",
     "url": "/portfolioShkut/static/css/main.c340bded.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolioShkut/static/js/2.0f6fe8bb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6ad9ba9018455b9c6d8b",
-    "url": "/portfolioShkut/static/js/main.d96a8106.chunk.js"
+    "revision": "22627b6e90d85f285774",
+    "url": "/portfolioShkut/static/js/main.4a3fde87.chunk.js"
   },
   {
     "revision": "e80ab973d74d0c632779",
@@ -80,8 +80,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolioShkut/static/media/redux.52dc1b56.svg"
   },
   {
-    "revision": "96a3e81c1393fe6e8521df31ad216ed2",
-    "url": "/portfolioShkut/static/media/sait.96a3e81c.png"
+    "revision": "3deb32ce7fb46474eb25d8fc0e1786da",
+    "url": "/portfolioShkut/static/media/sait.3deb32ce.png"
   },
   {
     "revision": "f1e6dc4c0d7421b384833f82c3fd7765",
