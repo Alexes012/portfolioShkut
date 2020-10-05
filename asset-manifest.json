@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolioShkut/static/css/main.c340bded.chunk.css",
+    "main.css": "/portfolioShkut/static/css/main.b7aa6eb9.chunk.css",
     "main.js": "/portfolioShkut/static/js/main.4a3fde87.chunk.js",
     "main.js.map": "/portfolioShkut/static/js/main.4a3fde87.chunk.js.map",
     "runtime-main.js": "/portfolioShkut/static/js/runtime-main.ec755535.js",
@@ -8,9 +8,9 @@
     "static/js/2.0f6fe8bb.chunk.js": "/portfolioShkut/static/js/2.0f6fe8bb.chunk.js",
     "static/js/2.0f6fe8bb.chunk.js.map": "/portfolioShkut/static/js/2.0f6fe8bb.chunk.js.map",
     "index.html": "/portfolioShkut/index.html",
-    "precache-manifest.ab0db84f081bf12032c66776f208f882.js": "/portfolioShkut/precache-manifest.ab0db84f081bf12032c66776f208f882.js",
+    "precache-manifest.7434470bfe8065cbb6df356c2f183e4c.js": "/portfolioShkut/precache-manifest.7434470bfe8065cbb6df356c2f183e4c.js",
     "service-worker.js": "/portfolioShkut/service-worker.js",
-    "static/css/main.c340bded.chunk.css.map": "/portfolioShkut/static/css/main.c340bded.chunk.css.map",
+    "static/css/main.b7aa6eb9.chunk.css.map": "/portfolioShkut/static/css/main.b7aa6eb9.chunk.css.map",
     "static/js/2.0f6fe8bb.chunk.js.LICENSE.txt": "/portfolioShkut/static/js/2.0f6fe8bb.chunk.js.LICENSE.txt",
     "static/media/0429.jpg": "/portfolioShkut/static/media/0429.07ad831c.jpg",
     "static/media/address.svg": "/portfolioShkut/static/media/address.c4ad0d80.svg",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.ec755535.js",
     "static/js/2.0f6fe8bb.chunk.js",
-    "static/css/main.c340bded.chunk.css",
+    "static/css/main.b7aa6eb9.chunk.css",
     "static/js/main.4a3fde87.chunk.js"
   ]
 }
