@@ -26,13 +26,13 @@ const AboutMe = () => {
                                 <div className={styles.name}>Профессия:</div>
                                 <div className={styles.button}>
                                     <button className={styles.btn}>
-                                        <span>Скачать резюме</span>
+                                        <a href="https://jobs.tut.by/resume/ac0b4e51ff081f6a770039ed1f6d6b696d414c">Скачать резюме</a>
                                     </button>
                                 </div>
                             </div>
                             <div className={styles.descriptionWrapper}>
                                 <div className={styles.description}>Алексей Шкут</div>
-                                <div className={styles.description}>21 год</div>
+                                <div className={styles.description}>22 года</div>
                                 <div className={styles.description}>Минск,Беларусь</div>
                                 <div className={styles.description}>Русский,Английский</div>
                                 <div className={styles.description}>Front-end разработчик</div>

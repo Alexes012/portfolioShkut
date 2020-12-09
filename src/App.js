@@ -79,13 +79,13 @@ class App extends React.Component {
             <div className="App">
                 <Particles className="Particles" params={particlesOption}/>
                 <div className="portfolio">
-                    <Redirect  to={'/main'} />
+                    <Redirect  to={'/portfolioShkut/main'} />
                     <NavBarMenu state={this.state} onOpenClick={this.onOpenClick}/>
-                    <Route path='/main' render={() => <Main/>}/>
-                    <Route path='/about' render={() => <AboutMe/>}/>
-                    <Route path='/skills' render={() => <Skills/>}/>
-                    <Route path='/projects' render={() => <Projects/>}/>
-                    <Route path='/contacts' render={() => <Contacts/>}/>
+                    <Route path='/portfolioShkut/main' render={() => <Main/>}/>
+                    <Route path='/portfolioShkut/about' render={() => <AboutMe/>}/>
+                    <Route path='/portfolioShkut/skills' render={() => <Skills/>}/>
+                    <Route path='/portfolioShkut/projects' render={() => <Projects/>}/>
+                    <Route path='/portfolioShkut/contacts' render={() => <Contacts/>}/>
                 </div>
             </div>
         );

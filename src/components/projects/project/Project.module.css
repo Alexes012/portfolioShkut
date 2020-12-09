@@ -40,13 +40,17 @@
     transition: all 1s;
 }
 
-.projectImg img:hover {
+.project .projectImg img:hover {
     -webkit-filter: none;
     -moz-filter: none;
     -ms-filter: none;
     -o-filter: none;
     filter: none;
     filter: none;
+}
+.project .btnShow .button:hover{
+    border: 1px solid #ffffff;
+    transition: all .3s ease-in;
 }
 
 .btnShow {
@@ -76,10 +80,7 @@
     transition:all 0.5s;
     letter-spacing: 2px;
 }
-.btnShow .button:hover{
-    border: 1px solid #ffffff;
-    transition: all .3s ease-in;
-}
+
 .projectTitle {
     font-size: 30px;
 }

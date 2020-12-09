@@ -6,6 +6,8 @@ import counter from '../../images/counterFull.jpg'
 import noproject from '../../images/noProject.png'
 import calculator from '../../images/calculator.png'
 import dots from "../../images/dots.png";
+import todolistIMG from "../../images/todolistIMG.png"
+import oldmouse from "../../images/sait.png"
 
 function Projects() {
     return (
@@ -25,12 +27,12 @@ function Projects() {
                             image={calculator}
                         />
                         <Project
-                            btn={<a href="">Смотреть</a>}
-                            image={noproject}
+                            btn={<a href="https://alexes012.github.io/todolist-ready">Смотреть</a>}
+                            image={todolistIMG}
                         />
                         <Project
-                            btn={<a href="">Смотреть</a>}
-                            image={noproject}
+                            btn={<a href="http://oldmouse.by/">Смотреть</a>}
+                            image={oldmouse}
                         />
                         <Project
                             btn={<a href="">Смотреть</a>}

@@ -37,7 +37,7 @@ function Skills() {
                         <Skill
                             icon={<img src={typeScript}/>}
                             name="TypeScript"
-                            discription="Описание навыков данного скилла скоро будет!"
+                            discription="Обладаю навыками работы с TypeScript в связке с React и Redux. Умею типизировать reducers, thunks, actions, api, components. "
                         />
                         <Skill
                             icon={<img src={react}/>}

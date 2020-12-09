@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './NavBarMenu.module.css';
 import {NavLink} from "react-router-dom";
+import photo from "../../images/0429.jpg"
 
 class NavBarMenu extends React.Component {
 
@@ -15,42 +16,42 @@ class NavBarMenu extends React.Component {
                         }}> {this.props.state.isHidden ? "<" : ">"}</button>
                     </div>
 
-                    <div className={styles.photo}/>
+                    <div className={styles.photo}><img src={photo}/></div>
                 </div>
 
                 <div className={styles.containerForMenu}>
                     <div className={styles.containerForLink}>
                         <div className={styles.animation}/>
                         <div className={styles.link}>
-                            <NavLink to="/main">Главная</NavLink>
+                            <NavLink to="/portfolioShkut/main">Главная</NavLink>
                         </div>
                     </div>
 
                     <div className={styles.containerForLink}>
                         <div className={styles.animation}/>
                         <div className={styles.link}>
-                            <NavLink to="/about">Визитка</NavLink>
+                            <NavLink to="/portfolioShkut/about">Визитка</NavLink>
                         </div>
                     </div>
 
                     <div className={styles.containerForLink}>
                         <div className={styles.animation}/>
                         <div className={styles.link}>
-                            <NavLink to="/skills">Навыки</NavLink>
+                            <NavLink to="/portfolioShkut/skills">Навыки</NavLink>
                         </div>
                     </div>
 
                     <div className={styles.containerForLink}>
                         <div className={styles.animation}/>
                         <div className={styles.link}>
-                            <NavLink to="/projects">Проекты</NavLink>
+                            <NavLink to="/portfolioShkut/projects">Проекты</NavLink>
                         </div>
                     </div>
 
                     <div className={styles.containerForLink}>
                         <div className={styles.animation}/>
                         <div className={styles.link}>
-                            <NavLink to="/contacts">Контакты</NavLink>
+                            <NavLink to="/portfolioShkut/contacts">Контакты</NavLink>
                         </div>
                     </div>
                 </div>
